@@ -22,17 +22,17 @@ function swap1() {
 
   setTimeout( () => {
   
-  document.querySelector("#image1").src = "/tshirts/swap/swap1.jpg"
+  document.querySelector("#image1").src = "../tshirts/swap/swap1.jpg"
   
     setTimeout( () => {
-    document.querySelector("#image1").src = "/tshirts/swap/swap2.jpg"
+    document.querySelector("#image1").src = "../tshirts/swap/swap2.jpg"
     
     
     setTimeout( () => {
-    document.querySelector("#image1").src = "/tshirts/swap/swap3.jpg"
+    document.querySelector("#image1").src = "../tshirts/swap/swap3.jpg"
     
     setTimeout( () => {
-      document.querySelector("#image1").src = "/tshirts/item9.jpg"
+      document.querySelector("#image1").src = "../tshirts/item9.jpg"
       
     },4000)
   
@@ -59,10 +59,10 @@ function swap2() {
 
   setTimeout( () => {
   
-  document.querySelector("#image2").src = "/tshirts/swap/swap4.jpg"
+  document.querySelector("#image2").src = "../tshirts/swap/swap4.jpg"
   
     setTimeout( () => {
-    document.querySelector("#image2").src = "/tshirts/item12.jpg"
+    document.querySelector("#image2").src = "../tshirts/item12.jpg"
     
     
 
@@ -84,10 +84,10 @@ function swap3() {
 
   setTimeout( () => {
   
-  document.querySelector("#image3").src = "/tshirts/swap/swap5.jpg"
+  document.querySelector("#image3").src = "../tshirts/swap/swap5.jpg"
   
     setTimeout( () => {
-    document.querySelector("#image3").src = "/tshirts/swap/swap6.jpg"
+    document.querySelector("#image3").src = "../tshirts/swap/swap6.jpg"
     
     
 
@@ -110,10 +110,10 @@ function swap4() {
 
   setTimeout( () => {
   
-  document.querySelector("#image4").src = "/tshirts/item15.jpg"
+  document.querySelector("#image4").src = "../tshirts/item15.jpg"
   
     setTimeout( () => {
-    document.querySelector("#image4").src = "/tshirts/swap/swap7.jpg"
+    document.querySelector("#image4").src = "../tshirts/swap/swap7.jpg"
     
     
 
@@ -135,18 +135,18 @@ function swap5() {
 
   setTimeout( () => {
   
-  document.querySelector("#image5").src = "/bags/swap/swap1.jpg"
+  document.querySelector("#image5").src = "../bags/swap/swap1.jpg"
   
     setTimeout( () => {
-    document.querySelector("#image5").src = "/bags/swap/swap2.jpg"
+    document.querySelector("#image5").src = "../bags/swap/swap2.jpg"
     
     
         setTimeout( () => {
-    document.querySelector("#image5").src = "/bags/swap/swap3.jpg"
+    document.querySelector("#image5").src = "../bags/swap/swap3.jpg"
     
     
         setTimeout( () => {
-    document.querySelector("#image5").src = "/bags/item1.jpg"
+    document.querySelector("#image5").src = "../bags/item1.jpg"
     
     
 
