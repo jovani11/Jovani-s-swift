@@ -199,3 +199,12 @@ section {
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+
+@media only screen and (max-width: 
+380px) {
+.about-box2-head-contents2 p {
+ font-size: 15px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+}

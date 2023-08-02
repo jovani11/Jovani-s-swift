@@ -218,6 +218,7 @@ products
 .container {
   position: relative;
   min-height: 45vh;
+  min-width: 320px;
   background: transparent;
   padding-top: 1em;
 }
@@ -227,12 +228,12 @@ products
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  padding: 10px;
+  padding: 2px;
 }
 
 .container .image-container .image {
-  height: 250px;
-  width: 180px;
+  height: 230px;
+  width: 40%;
   cursor: pointer;
 }
 
@@ -242,6 +243,15 @@ products
   object-fit: cover;
   border: 2px solid black;
 }
+
+.container .image-container .image span {
+  font-size: 12px;
+}
+
+.container .image-container .image p{
+  font-size: 12px;
+}
+
 
 .container .image-container .image:hover img {
   transform: scale(1.04);
@@ -295,3 +305,30 @@ products
 }
 
 
+
+
+
+@media only screen and (max-width: 
+380px) {
+  
+  .container .image-container .image {
+  height: 180px;
+  width: 40%;
+  cursor: pointer;
+}
+.container .image-container .image span {
+  font-size: 12px;
+}
+
+  .container .image-container .image p{
+  font-size: 12px;
+}
+  .image span {
+    font-size: 12px;
+    z-index: 100;
+  }
+    .image p {
+    font-size: 12px;
+    z-index: 100;
+  }
+}

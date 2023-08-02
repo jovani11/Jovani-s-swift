@@ -109,3 +109,12 @@ contact
   font-size: 30px;
   color: #5ac4b6;
 }
+
+@media only screen and (max-width: 
+380px) {
+  
+  .contact-box-fbpage p  {
+    font-size: 16px;
+  }
+
+}
